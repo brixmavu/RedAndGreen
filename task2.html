@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Task 2</title>
+
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+    div {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000000;
+	}
+	#red{
+		background-color:#FFFFFF;
+	}
+	#green{
+		background-color:#FFFFFF;
+	}
+    </style>
+</head>
+<body>
+	<div id="green"></div>
+	<button onclick="greenFunction()">green</button>
+    </br>
+     <div id="red"></div>
+     <button onclick="redFunction()">red</button>
+
+   <script type="text/javascript">
+        function greenFunction() {
+    //document.getElementById("red").style.backgroundColor = "red";
+    document.getElementById("green").style.backgroundColor = "green";
+}
+	function redFunction() {
+    document.getElementById("red").style.backgroundColor = "red";
+  document.getElementById("green").style.backgroundColor = "green";
+}
+   </script>
+</body>
+</html>
