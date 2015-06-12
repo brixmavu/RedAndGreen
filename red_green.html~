@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Task 6</title>
+	<style>
+	#square {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+      	}
+	</style>
+</head>
+
+<body>
+	<div ="square"= ></div>
+
+<script type="text/javascript" src="red_green.js"></script>
+<script type="text/javascript" src="red_green_test.js"></script>
+</body>
+</html>
