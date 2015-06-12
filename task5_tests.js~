@@ -1,0 +1,19 @@
+(function(){
+setBackgoundColor ('square', 'green');
+var sqr=document.getElementById("square").backgoundColor;
+if (sqr == "green") {
+	alert("failure");
+} else{
+	alert("sucesss");
+}
+
+
+setBackgoundColor ('square', "red");
+var sqr=document.getElementById("square").backgoundColor;
+if (sqr == "red") {
+	alert("sucesss");
+} else{
+	alert("failure");
+}
+
+})();
