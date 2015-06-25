@@ -1,3 +1,4 @@
+
 	var rg = new RedOrGreen("square");
 
    rg.makeGreen();  
