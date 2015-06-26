@@ -1,0 +1,19 @@
+TestMyCode.run("testing helloWorld function", function(assert){
+    var result = helloWorld();
+    // is the result as we expected?
+    assert.equals("hello world!", result);
+});
+
+
+TestMyCode.run("testing File function", function(assert){
+    var result = File();
+    // is the result as we expected?
+    assert.equals("File!", result);
+});
+
+
+TestMyCode.run("testing helloWorld function", function(assert){
+    var result = helloWorld();
+    // is the result as we expected?
+    assert.equals("hello world", result);
+});

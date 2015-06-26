@@ -1,12 +1,12 @@
-function RedOrGreen(square){
+function RedOrGreen(div){
 
    this.makeGreen = function(){
-   		document.getElementById("square").style.backgroundColor = "green";
+   		document.getElementById(div).style.backgroundColor = "green";
    		
    }
    
  	this.makeRed = function(){
-   		document.getElementById("square").style.backgroundColor = "red";
+   		document.getElementById(div).style.backgroundColor = "red";
    		
    }
 
